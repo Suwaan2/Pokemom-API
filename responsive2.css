@@ -1,0 +1,8 @@
+@media only screen and (max-width:510px){
+    .search-bar{
+        left:17%;
+    }
+    .btn{
+        left: 38%;
+    }
+}

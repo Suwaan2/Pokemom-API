@@ -1,0 +1,19 @@
+/* Adding Responsiveness to the Website    */
+@media only screen and (max-width:790px) {
+    .navi{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .navi ul{
+        flex-direction: column;
+    }
+    .search-bar{
+        left: 29%;
+        top: 11%;
+    }
+    .btn{
+        top: 12%;
+        left: 42%;
+    }
+    
+}
