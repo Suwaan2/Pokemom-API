@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Nunito&family=Oregano&family=Rubik+Scribble&family=Salsa&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bungee Spice', sans-serif;
+}
+img#pokemonSprite{
+    display:none;
+    width: 200px;
+    background: none;
+    /* border: 2px solid firebrick; */
+    border-radius: 50%;
+    /* padding: 2px; */
+    margin-top: 19px;
+    margin-left: 12px;
+
+}
+img#pokemonSprite:hover{
+    background: red;
+    transition: 2s;
+    transform: rotate(360deg);
+}
+
+input{
+    padding: 12px;
+    border-radius: 12px;
+    width: 344px;
+    display: flex;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+button{
+    background: none;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background: black;
+    color: white;
+    
+
+}
+
+
+
+/* New Start to the website  */
+.navi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 65px;
+    background-color: #2D3250;
+}
+.navi ul{
+    display: flex;
+    
+}
+.navi li{
+    list-style: none;
+}
+.navi li a{
+    color: white;
+   text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navi li a:hover{
+    color: red;
+    transition: 1.2s;
+}
+.logo{
+    padding: 12px;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+span{
+    color: rgb(255, 0, 0);
+}
+.info-section{
+    height: 80vh;
+    background-color: #424769;
+    
+}
+.big-text{
+    padding: 34px;
+    position: relative;
+    top: 15%;
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    font-weight: 700;
+}
+.small-text{
+    font-weight: 400;
+    color: rgb(255, 49, 49);
+    position: relative;
+    padding: 12px;
+    top:10%;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.search-bar{
+    position: relative;
+    top: 15%;
+    left: 39%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    cursor: pointer;
+   
+}
+.btn{
+    position: relative;
+    top: 16%;
+    left: 46%;
+    background: red;
+    cursor: pointer;
+   
+}
+
+.pokedex img{
+    width: 360px;
+    mix-blend-mode:darken;
+    display: flex;
+}
