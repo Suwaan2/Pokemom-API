@@ -1,11 +1,21 @@
 /* Adding Responsiveness to the Website    */
 @media only screen and (max-width:790px) {
+    .info-section{
+        width: 100%;
+    }
+    .navi li a{
+        padding: 50px 0px;
+    }
+    
     .navi{
         flex-direction: column;
         height: fit-content;
+        
+
     }
     .navi ul{
         flex-direction: column;
+
     }
     .search-bar{
         left: 29%;
@@ -14,6 +24,22 @@
     .btn{
         top: 12%;
         left: 42%;
+    }
+    .burger{
+        display: block;
+    }
+    /* .navi li a{
+        opacity: 0;
+    } */
+
+    .v-resp{
+       
+        height: 65px;
+       
+    }
+    footer .social-icons a {
+        font-size: 16px;
+
     }
     
 }

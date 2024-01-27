@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Bungee Spice', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 img#pokemonSprite{
     display:none;
     width: 200px;
@@ -73,7 +76,7 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 50px;
+    padding: 0px 90px;
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -82,7 +85,7 @@ button:hover{
     transition: 1.2s;
 }
 .logo{
-    padding: 12px;
+    padding: 13px 70px;
     font-size: 28px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -136,7 +139,21 @@ span{
     mix-blend-mode:darken;
     display: flex;
 }
-
+/* Burger Section  */
+.burger{
+    /* display: none; */
+    position: absolute;
+    cursor: pointer;
+    right: 1%;
+    top: 15px;
+   }
+   .line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+  
+  }
 
 /* Footer Section  */
 footer {

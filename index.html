@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fetch API</title>
+    <link rel="icon" type="image/x-icon" href="./fav.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="responsive2.css">
 </head>
 <body>
     <section class="hero">
-        <div class="navi">
-            <div class="logo">Poke<span>Finder</span></div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Motto</a></li>
-                <li><a href="#">Fun</a></li>
-            </ul>
+        <!-- <div class="h-nav-resp "> -->
            
+            <div class="navi v-resp vis">
+                <div class="logo">Poke<span>Finder</span></div>
+                <ul id="vis">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Motto</a></li>
+                    <li><a href="#">Fun</a></li>
+                </ul>
+       
+                        <!-- </div> -->
+            <div onclick="toggleList()" class="burger" >
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
         </div>
 
         <div class="info-section">
@@ -30,10 +39,10 @@
          
             <img src="" alt="Pokemon" id="pokemonSprite">
 
-           
+<!--            
             <div class="pokedex">
                 <img src="./pokeed.png" alt="d" >
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -53,5 +62,8 @@
     </footer>
   
     <script src="index.js"></script>
+    <script src="app.js"></script>
+    <script src="togg.js"></script>
+
 </body>
 </html>
