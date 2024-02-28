@@ -1,70 +1,99 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fetch API</title>
-    <link rel="icon" type="image/x-icon" href="./fav.png">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="responsive2.css">
-    <link rel="stylesheet" href="responsive3.css">
-</head>
-<body>
+    <link rel="icon" type="image/x-icon" href="./fav.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="responsive2.css" />
+    <link rel="stylesheet" href="responsive3.css" />
+  </head>
+  <body>
     <section class="hero">
-        <!-- <div class="h-nav-resp "> -->
-           
-            <div class="navi v-resp vis">
-                <div class="logo">Poke<span>Finder</span></div>
-                <ul id="vis">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Motto</a></li>
-                    <li><a href="#">Fun</a></li>
-                </ul>
-       
-                        <!-- </div> -->
-            <div onclick="toggleList()" class="burger" >
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
+      <!-- <div class="h-nav-resp "> -->
+
+      <div class="navi v-resp vis">
+        <div class="logo">Poke<span>Finder</span></div>
+        <ul id="vis">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Motto</a></li>
+          <li><a href="#">Fun</a></li>
+        </ul>
+
+        <!-- </div> -->
+        <div onclick="toggleList()" class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
         </div>
+      </div>
 
-        <div class="info-section">
-            <video src="./poke.mp4"  autoplay muted loop></video>
-            <h1 class="big-text">You are about to find out the pokemon</h1>
-            <p class="small-text">Search the pokemon of your choice using simple name</p>
-            <input type="text" id="pokemonName" placeholder="Enter Pokemon Name" class="search-bar">
-            <button onclick="fetchData()" class="btn">Fetch Pokemon</button><br>
-         
-            <img src="" alt="Pokemon" id="pokemonSprite">
+      <div class="info-section">
+        <video src="./poke.mp4" autoplay muted loop></video>
+        <h1 class="big-text">You are about to find out the pokemon</h1>
+        <p class="small-text">
+          Search the pokemon of your choice using simple name
+        </p>
+        <input
+          type="text"
+          id="pokemonName"
+          placeholder="Enter Pokemon Name"
+          class="search-bar"
+        />
+        <button onclick="fetchData()" class="btn">Fetch Pokemon</button><br />
 
-<!--            
+        <img src="" alt="Pokemon" id="pokemonSprite" />
+
+        <!--            
             <div class="pokedex">
                 <img src="./pokeed.png" alt="d" >
             </div> -->
+      </div>
+    </section>
+    <section id="cards">
+      <span>Pokemon CARDS</span>
+      <div class="main-container">
+        <div class="container">
+          <img src="./back.jpg" alt="backIMG" class="back" />
+          <div class="overlay-image">
+            <img src="./card.png" alt="FrontIMG" />
+          </div>
         </div>
+        <div class="container">
+          <img src="./back.jpg" alt="backIMG" class="back" />
+          <div class="overlay-image">
+            <img src="./gor.png" alt="FrontIMG" />
+          </div>
+        </div>
+        <div class="container">
+          <img src="./back.jpg" alt="backIMG" class="back" />
+          <div class="overlay-image">
+            <img src="./yv.png" alt="FrontIMG" />
+          </div>
+        </div>
+      </div>
     </section>
 
-
-
-
-
     <footer>
-        <ul class="social-icons">
-            <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-            <li><a href="https://www.Twitter.com/" target="_blank">Twitter</a></li>
-            <li><a href="https://www.Instagram.com/" target="_blank">Instagram</a></li>
-            <li><a href="https://www.Youtube.com/" target="_blank">Youtube</a></li>
-            <!-- Add more social media icons as needed -->
-        </ul>
-        <p class="copyright">&copy; 2024 FetchAPI. All rights reserved.</p>
+      <ul class="social-icons">
+        <li>
+          <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        </li>
+        <li><a href="https://www.Twitter.com/" target="_blank">Twitter</a></li>
+        <li>
+          <a href="https://www.Instagram.com/" target="_blank">Instagram</a>
+        </li>
+        <li><a href="https://www.Youtube.com/" target="_blank">Youtube</a></li>
+        <!-- Add more social media icons as needed -->
+      </ul>
+      <p class="copyright">&copy; 2024 FetchAPI. All rights reserved.</p>
     </footer>
-  
+
     <script src="index.js"></script>
     <script src="app.js"></script>
     <script src="togg.js"></script>
-
-</body>
+  </body>
 </html>

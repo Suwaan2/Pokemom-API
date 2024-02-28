@@ -1,146 +1,140 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Nunito&family=Oregano&family=Rubik+Scribble&family=Salsa&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Nunito&family=Oregano&family=Rubik+Scribble&family=Salsa&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Bungee Spice', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bungee Spice", sans-serif;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-img#pokemonSprite{
-    display:none;
-    width: 200px;
-    background: none;
-    /* border: 2px solid firebrick; */
-    border-radius: 50%;
-    /* padding: 2px; */
-    margin-top: 19px;
-    margin-left: 12px;
-
+img#pokemonSprite {
+  display: none;
+  width: 200px;
+  background: none;
+  /* border: 2px solid firebrick; */
+  border-radius: 50%;
+  /* padding: 2px; */
+  margin-top: 19px;
+  margin-left: 12px;
 }
-img#pokemonSprite:hover{
-    background: red;
-    transition: 2s;
-    transform: rotate(360deg);
-}
-
-input{
-    padding: 12px;
-    border-radius: 12px;
-    width: 344px;
-    display: flex;
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
-button{
-    background: none;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-button:hover{
-    background: black;
-    color: white;
-    
-
+img#pokemonSprite:hover {
+  background: red;
+  transition: 2s;
+  transform: rotate(360deg);
 }
 
-
+input {
+  padding: 12px;
+  border-radius: 12px;
+  width: 344px;
+  display: flex;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button {
+  background: none;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover {
+  background: black;
+  color: white;
+}
 
 /* New Start to the website  */
-.navi{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 65px;
-    background-color: #1e1e1e;
+.navi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 65px;
+  background-color: #1e1e1e;
 }
-.navi ul{
-    display: flex;
-    
+.navi ul {
+  display: flex;
 }
-.navi li{
-    list-style: none;
+.navi li {
+  list-style: none;
 }
-.navi li a{
-    color: white;
-   text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 0px 90px;
-    font-size: 18px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.navi li a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px 90px;
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-.navi li a:hover{
-    color: red;
-    transition: 1.2s;
+.navi li a:hover {
+  color: red;
+  transition: 1.2s;
 }
-.logo{
-    padding: 13px 70px;
-    font-size: 28px;
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.logo {
+  padding: 13px 70px;
+  font-size: 28px;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-span{
-    color: rgb(255, 0, 0);
+span {
+  color: rgb(255, 0, 0);
 }
-.info-section{
-    position: relative;  /* Try Out section  */
-    height: 80vh;
-    /* background-color: #424769; */
-    
+.info-section {
+  position: relative; /* Try Out section  */
+  height: 90vh;
+  /* background-color: #424769; */
 }
-.info-section::before{
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(16, 18, 23, 0.9);
-    z-index: -1;
+.info-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(16, 18, 23, 0.9);
+  z-index: -1;
 }
-.big-text{
-    padding: 34px;
-    position: relative;
-    top: 15%;
-    font-size: 40px;
-    text-align: center;
-    color: red;
-    font-weight: 700;
+.big-text {
+  padding: 34px;
+  position: relative;
+  top: 15%;
+  font-size: 40px;
+  text-align: center;
+  color: red;
+  font-weight: 700;
 }
-.small-text{
-    font-weight: 400;
-    color: rgb(255, 249, 249);
-    position: relative;
-    padding: 12px;
-    top:10%;
-    font-size: 18px;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.small-text {
+  font-weight: 400;
+  color: rgb(255, 249, 249);
+  position: relative;
+  padding: 12px;
+  top: 10%;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-.search-bar{
-    position: relative;
-    top: 15%;
-    left: 39%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    cursor: pointer;
-   
+.search-bar {
+  position: relative;
+  top: 15%;
+  left: 39%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  cursor: pointer;
 }
-.btn{
-    position: relative;
-    top: 16%;
-    left: 46%;
-    background: red;
-    cursor: pointer;
-   
+.btn {
+  position: relative;
+  top: 16%;
+  left: 46%;
+  background: red;
+  cursor: pointer;
 }
 
 /* .pokedex img{
@@ -149,61 +143,163 @@ span{
     display: flex;
 } */
 /* Burger Section  */
-.burger{
-    /* display: none; */
-    position: absolute;
-    cursor: pointer;
-    right: 1%;
-    top: 15px;
-    
-   }
-   .line{
-    width: 33px;
-    background-color: white;
-    height: 4px;
-    margin: 5px 3px;
-  
-  }
+.burger {
+  /* display: none; */
+  position: absolute;
+  cursor: pointer;
+  right: 1%;
+  top: 15px;
+}
+.line {
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 5px 3px;
+}
 
 /* Footer Section  */
 footer {
-    background-color: #1e1e1e;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 
 .social-icons {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 .social-icons li {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .social-icons a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
 }
 
 .copyright {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 /* Try Out Section  */
-video{
-            
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -2; 
-    object-fit:fill;
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  object-fit: fill;
+}
+
+/* Info section 
+ */
+
+#info {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#info .info-card {
+  height: 450px;
+  width: 450px;
+  /* border: 2px solid black; */
+  /* border-radius: 19px; */
+  margin: 42px;
+  text-align: center;
+  padding: 12px;
+}
+#info .all-cards {
+  display: flex;
+}
+#info .info-card img {
+  width: 60%;
+  height: 60%;
+  margin-top: 8%;
+}
+/* #info .info-card .head {
+  width: 25%;
+  position: absolute;
+  /* text-align: center; */
+/* display: flex; */
+/* align-items: center; 
+  justify-content: center;
+  font-size: 20px;
+}*/
+
+/* #info .pokecards {
+  font-size: 50px;
+  text-align: center;
+} */
+/* .card-hover {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+  margin: 20px;
+}
+.card-hover .cards img {
+  height: 300px;
+  width: 200px;
+  position: relative;
+}
+.card-hover .cards .front{
+  position: absolute;
+  opacity: 0;
+  
+}
+
+.card-hover.card img .front:hover{
+  opacity: 1;
+  position: absolute;
+  
+} */
+
+/* OVERLAY AND TRANSITION OF THE CARD  */
+#cards {
+  height: 100%;
+  text-align: center;
+}
+#cards span {
+  font-size: 30px;
+  line-height: 75px;
+}
+.main-container {
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.container img {
+  height: 300px;
+  width: 200px;
+}
+.container .back {
+  position: block;
+}
+.container .overlay-image {
+  position: absolute;
+  opacity: 0;
+  transition: 0.5 ease;
+}
+
+.container:hover .overlay-image {
+  opacity: 1;
+  transform: rotate(360deg);
 }
