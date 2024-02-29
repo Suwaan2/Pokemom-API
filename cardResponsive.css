@@ -3,11 +3,27 @@
 
 @media only screen and (max-width:730px){
     .conatiner{
-        padding: 12px;
+        padding: 24px;
     }
     .container img{
-        height: 150px;
-        width: 100px;
+        height: 200px;
+        width: 150px;
     }
 
+}
+@media only screen and (max-width:550px){
+    .container img{
+        height: 180px;
+        width: 120px;
+    }
+}
+@media only screen and (max-width:450px){
+    .container img{
+        height:170px ;
+        width:110px ;
+    }
+    .main-conatiner{
+        padding: 12px 24px;
+        margin: 12px;
+    }
 }
