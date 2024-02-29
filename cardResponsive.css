@@ -1,0 +1,13 @@
+
+
+
+@media only screen and (max-width:730px){
+    .conatiner{
+        padding: 12px;
+    }
+    .container img{
+        height: 150px;
+        width: 100px;
+    }
+
+}
