@@ -11,7 +11,7 @@ html {
 }
 img#pokemonSprite {
   display: none;
-  width: 200px;
+  width: 300px;
   background: none;
   /* border: 2px solid firebrick; */
   border-radius: 50%;
@@ -20,9 +20,35 @@ img#pokemonSprite {
   margin-left: 12px;
 }
 img#pokemonSprite:hover {
-  background: red;
-  transition: 2s;
-  transform: rotate(360deg);
+  animation: shake-horizontal 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+@keyframes shake-horizontal {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+  80% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  90% {
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px);
+  }
 }
 
 input {
