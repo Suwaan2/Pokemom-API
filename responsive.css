@@ -1,45 +1,109 @@
 /* Adding Responsiveness to the Website    */
-@media only screen and (max-width:1211px) {
-    .info-section{
-        width: 100%;
-    }
-    .navi li a{
-        padding: 50px 0px;
-    }
-    
-    .navi{
-        flex-direction: column;
-        height: fit-content;
-        
+@media only screen and (max-width: 1211px) {
+  .info-section {
+    width: 100%;
+  }
+  .navi li a {
+    padding: 50px 0px;
+  }
 
-    }
-    .navi ul{
-        flex-direction: column;
-
-    }
-    .search-bar{
-        left: 29%;
-        top: 11%;
-    }
-    .btn{
-        top: 12%;
-        left: 42%;
-    }
-    .burger{
-        display: block;
-    }
-    /* .navi li a{
+  .navi {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .navi ul {
+    flex-direction: column;
+  }
+  .search-bar {
+    left: 36%;
+    top: 11%;
+  }
+  .btn {
+    top: 12%;
+    left: 45%;
+  }
+  /* .burger {
+    display: block;
+  } */
+  /* .navi li a{
         opacity: 0;
     } */
 
-    .v-resp{
-       
-        height: 65px;
-       
+  .v-resp {
+    height: 65px;
+  }
+  footer .social-icons a {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+
+    .search-bar{
+        left: 33%;
     }
-    footer .social-icons a {
-        font-size: 16px;
+    .btn{
+        left: 43%;
+    }
+
+
+}
+
+@media only screen and (max-width: 842px) {
+    .search-bar{
+        left: 30%;
+    }
+    .btn{
+        left: 42%;
+    }
+
+}
+@media only screen and (max-width: 700px) {
+    .search-bar{
+        left: 24%;
+    }
+    .btn{
+        left: 39%;
+    }
+
+}
+
+@media only screen and (max-width: 560px) {
+    .search-bar{
+        left: 19%;
+    }
+    .btn{
+        left: 38%;
+    }
+    .info-section{
+        height: 90vh;
+    }
+    .small-text{
+        line-height: 25px;
+    }
+}
+@media only screen and (max-width: 470px) {
+    .search-bar{
+        left: 24%;
+        width: 15rem;
+    }
+    .btn{
+        left: 36%;
+        width: 121px;
+    }
+    .big-text{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 380px) {
+ .search-bar   {
+        left: 22%;
 
     }
-    
+    #cards .main-container{
+        gap: 16px;
+        padding: 0px 10px;
+    }
+    .burger{
+        position: fixed;
+    }
 }
