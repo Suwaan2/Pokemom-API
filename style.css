@@ -104,6 +104,9 @@ button:hover {
   color: red;
   transition: 1.2s;
 }
+/* .navi {
+  transition: 2 ease-out;
+} */
 .logo {
   padding: 13px 70px;
   font-size: 28px;
